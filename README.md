@@ -11,7 +11,7 @@ Official implementation for **"OMR: Occlusion-Aware Memory-Based Refinement for 
 **"VIL-100"** is available at [here](https://github.com/yujun0-0/MMA-Net).
 **"KINS"** is available at [here](https://github.com/qqlu/Amodal-Instance-Segmentation-through-KINS-Dataset?tab=readme-ov-file).
 
-<img src="https://github.com/dongkwonjin/OMR/blob/main/Overview.png" alt="overview" width="100%" height="100%" border="0"/>
+<img src="https://github.com/dongkwonjin/OMR/blob/main/Overview.png" alt="overview" width="80%" height="80%" border="0"/>
 
 
 ### Requirements
