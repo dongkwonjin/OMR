@@ -100,6 +100,7 @@ ROOT
 │   ├── JPEGImages
 │   ├── Annotations         # Not used
 └── ...
+```
 
 ## Evaluation (for VIL-100)
 
