@@ -1,0 +1,11 @@
+opencv-python==4.3.0.36
+imgaug
+pickle5
+tqdm
+p_tqdm
+Shapely
+transformers
+
+# install pillow-simd if you run the code faster
+# pip uninstall pillow
+# CC="cc -mavx2" pip install -U --force-reinstall pillow-simd
