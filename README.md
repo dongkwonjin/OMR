@@ -1,5 +1,3 @@
-# OMR
-
 # [ECCV 2024] OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection
 
 ### Dongkwon Jin and Chang-Su Kim
