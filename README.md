@@ -113,12 +113,3 @@ To evaluate using VIL-100, follow these steps:
    ```bash
    cd ROOT/Modeling/VIL-100/MODEL_NAME/code/evaluation/culane/
    make
-
-
-@Inproceedings{
-    Jin2024omr,
-    title={OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection},
-    author={Jin, Dongkwon and Kim, Chang-Su},
-    booktitle={ECCV},
-    year={2024}
-}
