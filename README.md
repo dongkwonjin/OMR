@@ -59,11 +59,11 @@ Download [OpenLane-V](https://drive.google.com/file/d/1Jf7g1EG2oL9uVi9a1Fk80Iqtd
     │   └── ...                 # etc.
     ├── Modeling                # directory for modeling
     │   ├── VIL-100             # dataset name (VIL-100, OpenLane-V)
-    |   |   ├── ILD_seg         # a part of ILD for predicting lane probability maps
+    |   |   ├── ILD_cls         # a part of ILD for predicting lane probability map and latent obstacle mask
     |   |   |   ├── code
-    |   |   ├── ILD_coeff       # a part of ILD for predicting lane coefficient maps
+    |   |   ├── ILD_reg         # a part of ILD for regressing lane coefficient maps
     |   |   |   ├── code
-    |   |   ├── PLD             # PLD
+    |   |   ├── OMR             # occlusion-aware memory-based refinement module
     |   |   |   ├── code
     │   ├── OpenLane-V           
     |   |   ├── ...             # etc.
@@ -100,7 +100,7 @@ $ make
 ```
 
 ### Train
-1. Set the dataset you want to train on (`DATASET_NAME`). Also, set the model (ILD or PLD) you want to train (`MODEL_NAME`).
+1. Set the dataset you want to train on (`DATASET_NAME`). Also, set the model (ILD or OMR) you want to train (`MODEL_NAME`).
 2. Parse your dataset path into the `-dataset_dir` argument.
 3. Edit `config.py` if you want to control the training process in detail
 ```
@@ -109,7 +109,7 @@ $ python main.y --run_mode train --pre_dir ROOT/preprocessed/DATASET_NAME/ --dat
 ```
  
 ### Test
-1. Set the dataset you want to train on (`DATASET_NAME`). Also, set the model (ILD or PLD) you want to train (`MODEL_NAME`).
+1. Set the dataset you want to train on (`DATASET_NAME`). Also, set the model (ILD or OMR) you want to train (`MODEL_NAME`).
 2. Parse your dataset path into the `-dataset_dir` argument.
 3. If you want to get the performances of our work,
 ```
@@ -138,10 +138,10 @@ $ python main.py --dataset_dir /where/is/your/dataset/path
 ### Reference
 ```
 @Inproceedings{
-    Jin2023rvld,
-    title={Recursive Video Lane Detection},
-    author={Jin, Dongkwon and Kim, Dahyun and Kim, Chang-Su},
-    booktitle={ICCV},
-    year={2023}
+    Jin2024omr,
+    title={OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection},
+    author={Jin, Dongkwon and Kim, Chang-Su},
+    booktitle={ECCV},
+    year={2024}
 }
 ```
