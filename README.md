@@ -7,13 +7,8 @@ Official implementation of **"[OMR: Occlusion-Aware Memory-Based Refinement for 
 - **[Arxiv Paper](https://arxiv.org/abs/2408.07486)**
 - **[Supplementary Material](https://drive.google.com/file/d/1PrXyYWONMdnZW1eeBn4aeve10u3zy0Qh/view?usp=sharing)**
 
-## Datasets
-- **[OpenLane-V](https://drive.google.com/file/d/1Jf7g1EG2oL9uVi9a1Fk80Iqtd1Bvb0V7/view?usp=sharing)**
-- **[VIL-100](https://github.com/yujun0-0/MMA-Net)**
-- **[KINS](https://github.com/qqlu/Amodal-Instance-Segmentation-through-KINS-Dataset?tab=readme-ov-file)**
-
 <p align="center">
-  <img src="https://github.com/dongkwonjin/OMR/blob/main/Overview.png" alt="Overview" width="80%" height="80%" />
+  <img src="https://github.com/dongkwonjin/OMR/blob/main/Overview.png" alt="Overview" width="100%" height="100%" />
 </p>
 
 ## Requirements
@@ -57,6 +52,8 @@ Official implementation of **"[OMR: Occlusion-Aware Memory-Based Refinement for 
 1. **OpenLane-V**: Download [OpenLane-V](https://drive.google.com/file/d/1Jf7g1EG2oL9uVi9a1Fk80Iqtd1Bvb0V7/view?usp=sharing) and place it in the original OpenLane dataset directory.
 
 2. **VIL-100**: Download from [here](https://github.com/yujun0-0/MMA-Net).
+
+3. **KINS**: Download from [here](https://github.com/qqlu/Amodal-Instance-Segmentation-through-KINS-Dataset?tab=readme-ov-file).
 
 ## Directory Structure
 ```bash
