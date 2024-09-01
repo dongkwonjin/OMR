@@ -150,3 +150,30 @@ python main.y --run_mode test --pre_dir ROOT/preprocessed/DATASET_NAME/ --datase
 3. **(Optional) Visualize Results**
   - To visualize detection results, set `disp_test_result=True` in `code/options/config.py`.
 
+
+## Preprocessing
+
+Preprocessing data involves several steps:
+1. **Convert Ground-Truth Lanes**
+   - Convert ground-truth lanes to pickle format (VIL-100 specific).
+2. **2D Point Representation**
+  - Represent each lane in the training set as 2D points sampled uniformly in the vertical direction.
+3. **Lane Matrix Construction**
+  - Construct a lane matrix, perform SVD, and transform each lane into its coefficient vector.
+4. **Generate Video-Based Datalists**
+  - Create datalists for training and test sets.
+  ```bash
+   cd ROOT/Modeling/DATASET_NAME/MODEL_NAME/code/
+python main.y --run_mode test --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
+   ```
+
+## Reference
+```
+@Inproceedings{
+    Jin2024omr,
+    title={OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection},
+    author={Jin, Dongkwon and Kim, Chang-Su},
+    booktitle={ECCV},
+    year={2024}
+}
+```
