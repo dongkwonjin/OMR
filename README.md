@@ -127,3 +127,26 @@ To evaluate using VIL-100, follow these steps:
    cd ROOT/Modeling/DATASET_NAME/MODEL_NAME/code/
    python main.y --run_mode train --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
    ```
+2. **Optional: Edit Configuration**
+  - Set the dataset (DATASET_NAME) and model (MODEL_NAME) you want to train.
+
+
+## Testing
+
+1. **Evaluate Pre-Trained Models**
+   - To get performances of pre-trained models:
+   
+   ```bash
+   cd ROOT/Modeling/DATASET_NAME/MODEL_NAME/code/
+   python main.y --run_mode test_paper --pre_dir ROOT/preprocessed/DATASET_NAME/ --paper_weight_dir ROOT/pretrained/DATASET_NAME/ --dataset_dir /path/to/your/dataset
+
+   ```
+2. **Evaluate Your Trained Model**
+  - To evaluate a model you have trained:
+  ```bash
+   cd ROOT/Modeling/DATASET_NAME/MODEL_NAME/code/
+python main.y --run_mode test --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
+   ```
+3. **(Optional) Visualize Results**
+  - To visualize detection results, set disp_test_result=True in 'code/options/config.py`.
+
