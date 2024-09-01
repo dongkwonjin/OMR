@@ -114,3 +114,4 @@ To evaluate using VIL-100, follow these steps:
    cd ROOT/Modeling/VIL-100/MODEL_NAME/code/evaluation/culane/
    make
    ```
+2. **Refer to the Installation Guidelines**
