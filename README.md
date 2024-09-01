@@ -115,3 +115,15 @@ To evaluate using VIL-100, follow these steps:
    make
    ```
 2. **Refer to the Installation Guidelines**
+   - For detailed installation instructions, refer to the installation guideline.
+  
+## Training
+
+1. **Configure Training**
+   - Set the dataset (DATASET_NAME) and model (MODEL_NAME) you want to train.
+   - Specify your dataset path using the -dataset_dir argument.
+
+   ```bash
+   cd ROOT/Modeling/DATASET_NAME/MODEL_NAME/code/
+   python main.y --run_mode train --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
+   ```
