@@ -120,7 +120,7 @@ To evaluate using VIL-100, follow these steps:
 ## Training
 
 1. **Configure Training**
-   - Set the dataset (DATASET_NAME) and model (**MODEL_NAME**) you want to train.
+   - Set the dataset (DATASET_NAME) and model (MODEL_NAME) you want to train.
    - Specify your dataset path using the `-dataset_dir` argument.
 
    ```bash
