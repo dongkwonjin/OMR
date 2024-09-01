@@ -34,12 +34,12 @@ $ unzip preprocessing.zip
 ```
 4. Create conda environment:
 ```
-$ conda create -n OMR python=3.7 anaconda
+$ conda create -n OMR python=3.8 anaconda
 $ conda activate OMR
 ```
 4. Install dependencies:
 ```
-$ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch
+$ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 $ pip install -r requirements.txt
 ```
 Pytorch can be installed on [here](https://pytorch.org/get-started/previous-versions/). Other versions might be available as well.
