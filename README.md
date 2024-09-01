@@ -5,7 +5,7 @@
 ### Dongkwon Jin and Chang-Su Kim
 
 
-Official implementation for **"OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection"** [[arxiv]](https://arxiv.org/abs/2408.07486) [[paper]](https://arxiv.org/abs/2408.07486)
+Official implementation for **"OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection"** [[arxiv]](https://arxiv.org/abs/2408.07486) [[paper]](https://arxiv.org/abs/2408.07486) [[supp]](https://drive.google.com/file/d/1PrXyYWONMdnZW1eeBn4aeve10u3zy0Qh/view?usp=sharing)
 
 **"OpenLane-V"** is available at [here](https://drive.google.com/file/d/1Jf7g1EG2oL9uVi9a1Fk80Iqtd1Bvb0V7/view?usp=sharing).
 **"VIL-100"** is available at [here](https://github.com/yujun0-0/MMA-Net).
@@ -26,7 +26,7 @@ Official implementation for **"OMR: Occlusion-Aware Memory-Based Refinement for 
 $ git clone https://github.com/dongkwonjin/OMR.git
 ```
 
-2. Download [pre-trained model](https://drive.google.com/file/d/1PjbN2uQ-7DgFJjApH1vRx81vEo_Tvn-9/view?usp=sharing) parameters and [preprocessed data](https://drive.google.com/file/d/14JI2BIwJ677_rCBLGQiHvl6IF-n0LIwH/view?usp=sharing) in `ROOT`:
+2. Download [pre-trained model](https://drive.google.com/file/d/19_3Tc3wXIbMxoiqcWbWRA6puAjEYZn4U/view?usp=sharing) parameters and [preprocessed data](https://drive.google.com/file/d/1S6_rQQ3P5B2EpzbqMzjOdNP-Ahu4McdK/view?usp=sharing) in `ROOT`:
 ```
 $ cd ROOT
 $ unzip pretrained.zip
@@ -34,8 +34,8 @@ $ unzip preprocessing.zip
 ```
 4. Create conda environment:
 ```
-$ conda create -n RVLD python=3.7 anaconda
-$ conda activate RVLD
+$ conda create -n OMR python=3.7 anaconda
+$ conda activate OMR
 ```
 4. Install dependencies:
 ```
