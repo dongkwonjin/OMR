@@ -68,7 +68,7 @@ ROOT
 │   └── ...
 ├── Modeling                # Model code
 │   ├── VIL-100             # Dataset: VIL-100, OpenLane-V
-│   │   ├── ILD_cls         # ILD module for lane probability map and obstacle mask
+│   │   ├── ILD_cls         # ILD module for predicting lane probability map and latent obstacle mask
 │   │   │   ├── code
 │   │   ├── ILD_reg         # ILD module for regressing lane coefficient maps
 │   │   │   ├── code
