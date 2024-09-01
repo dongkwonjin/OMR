@@ -100,3 +100,15 @@ ROOT
 │   ├── JPEGImages
 │   ├── Annotations         # Not used
 └── ...
+
+## Evaluation (for VIL-100)
+
+To evaluate using VIL-100, follow these steps:
+
+1. **Install Evaluation Tools**
+   - Download the official CULane evaluation tools from [here](https://github.com/yujun0-0/MMA-Net/blob/main/INSTALL.md).
+   - Save the tools in the `ROOT/Modeling/VIL-100/MODEL_NAME/code/evaluation/culane/` directory.
+
+   ```bash
+   cd ROOT/Modeling/VIL-100/MODEL_NAME/code/evaluation/culane/
+   make
