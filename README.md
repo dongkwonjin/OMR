@@ -120,7 +120,7 @@ To evaluate using VIL-100, follow these steps:
 ## Training
 
 1. **Configure Training**
-   - Set the dataset (DATASET_NAME) and model (MODEL_NAME) you want to train.
+   - Set the dataset (`DATASET_NAME`) and model (`MODEL_NAME`) you want to train.
    - Specify your dataset path using the `-dataset_dir` argument.
 
    ```bash
@@ -128,7 +128,7 @@ To evaluate using VIL-100, follow these steps:
    python main.y --run_mode train --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
    ```
 2. **Optional: Edit Configuration**
-  - Modify config.py to adjust the training parameters as needed.
+  - Modify `config.py` to adjust the training parameters as needed.
 
 
 ## Testing
@@ -148,5 +148,5 @@ To evaluate using VIL-100, follow these steps:
 python main.y --run_mode test --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
    ```
 3. **(Optional) Visualize Results**
-  - To visualize detection results, set disp_test_result=True in `code/options/config.py`.
+  - To visualize detection results, set `disp_test_result=True` in `code/options/config.py`.
 
