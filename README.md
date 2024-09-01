@@ -148,5 +148,5 @@ To evaluate using VIL-100, follow these steps:
 python main.y --run_mode test --pre_dir ROOT/preprocessed/DATASET_NAME/ --dataset_dir /path/to/your/dataset
    ```
 3. **(Optional) Visualize Results**
-  - To visualize detection results, set disp_test_result=True in 'code/options/config.py`.
+  - To visualize detection results, set disp_test_result=True in `code/options/config.py`.
 
